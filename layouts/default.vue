@@ -1,5 +1,21 @@
 <template>
   <div>
+    <ul>
+      <li>
+        <nuxt-link :to="{path: '/'}">home</nuxt-link>
+      </li>
+            <li>
+        <nuxt-link :to="{path: '/about'}">about</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link :to="{path: '/content'}">content</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link :to="{path: '/video'}">video</nuxt-link>
+      </li>
+
+    </ul>
+
     <nuxt />
   </div>
 </template>
